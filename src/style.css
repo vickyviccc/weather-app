@@ -31,7 +31,6 @@ li {
 line-height: 19px
 }
 
-
      
 .weather-app-wrapper {
     max-width: 600px;
@@ -69,4 +68,27 @@ line-height: 1;
     position: relative;
     font-size: 16px;
     top: -34px;
+}
+
+.weather-forecast {
+    margin-top: 20px;
+    margin-left: 20px;
+        color: #000;
+        text-align: center;
+
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+opacity: 0.6;
+}
+
+.weather-forecast-temperature-minimum {
+    opacity: 0.6;
+}
+
+.weather-forecast-temperature
+ {
+    font-size: 13px;
+
 }

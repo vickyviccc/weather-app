@@ -16,6 +16,22 @@ let day = days[date.getDay()];
 }
 
 
+
+
+          
+              forecastHTML = forecastHTML + `</div>`; 
+forecastElement.innerHTML = forecastHTML;
+
+   
+}
+
+
+
+
+
+
+
+
 function displayTemperature(response) {
 
 let temperatureElement = document.querySelector("#temperature");
@@ -51,6 +67,7 @@ function handleSubmit(event) {
 }
 
 search("New York");
+displayForecast();
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);

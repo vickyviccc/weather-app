@@ -18,15 +18,6 @@ let day = days[date.getDay()];
 
 
 
-          
-              forecastHTML = forecastHTML + `</div>`; 
-forecastElement.innerHTML = forecastHTML;
-
-   
-}
-
-
-
 
 
 

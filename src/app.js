@@ -46,7 +46,7 @@ iconElement.setAttribute("alt", response.data.weather[0].description);
 
 
 function search(city) {
-let apiKey = "34b48ef5fb51126e6839dd0ddea238ea";
+let apiKey = "7e091199e3a67b8caf2ede0e69b3a255";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 axios.get(apiUrl).then(displayTemperature); 
 }
@@ -57,8 +57,6 @@ function handleSubmit(event) {
     console.log(cityInputElement.value);
 }
 
-search("New York");
-displayForecast();
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
